@@ -6,7 +6,7 @@ $produkObj = new Produk();
 $list = $produkObj->getAll();
 include '../includes/header.php';
 ?>
-<div class="topbar"><h1><i class="ph-bold ph-package"></i> Stok Barang</h1></div>
+<div class="topbar"><h1><i class="ph-bold ph-package"></i> Stok Barang</h1><span style="font-size:13px;color:var(--muted)"><?= date('d F Y') ?></span></div>
 <div class="content">
   <div class="card">
     <div class="card-header">

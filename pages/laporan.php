@@ -26,7 +26,7 @@ $totalPendapatan = array_sum(array_column($list, 'TotalHarga'));
 
 include '../includes/header.php';
 ?>
-<div class="topbar"><h1><i class="ph-bold ph-chart-line-up"></i> Laporan Penjualan</h1></div>
+<div class="topbar"><h1><i class="ph-bold ph-chart-line-up"></i> Laporan Penjualan</h1><span style="font-size:13px;color:var(--muted)"><?= date('d F Y') ?></span></div>
 <div class="content">
 
   <div class="card" style="margin-bottom:20px">

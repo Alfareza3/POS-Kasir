@@ -36,7 +36,7 @@ if (isset($_GET['edit'])) {
 $list = $produkObj->getAll();
 include '../includes/header.php';
 ?>
-<div class="topbar"><h1><i class="ph-bold ph-tag"></i> Pendataan Barang</h1></div>
+<div class="topbar"><h1><i class="ph-bold ph-tag"></i> Pendataan Barang</h1><span style="font-size:13px;color:var(--muted)"><?= date('d F Y') ?></span></div>
 <div class="content">
 <?php if ($msg): ?>
   <div class="alert alert-<?= $msgType ?>"><?= htmlspecialchars($msg) ?></div>

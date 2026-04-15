@@ -40,7 +40,7 @@ $sukses = isset($_GET['sukses']) ? (int)$_GET['sukses'] : null;
 
 include '../includes/header.php';
 ?>
-<div class="topbar"><h1><i class="ph-bold ph-receipt"></i> Transaksi Kasir</h1></div>
+<div class="topbar"><h1><i class="ph-bold ph-receipt"></i> Transaksi Kasir</h1><span style="font-size:13px;color:var(--muted)"><?= date('d F Y') ?></span></div>
 <div class="content">
 <?php if ($sukses): ?>
   <div class="alert alert-success"><i class="ph-bold ph-check-circle"></i> Transaksi #<?= $sukses ?> berhasil disimpan!</div>
